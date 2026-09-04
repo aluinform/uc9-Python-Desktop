@@ -1,7 +1,7 @@
 # Programar aplicativos computacionais com integração de banco de dados para desktop.
-## REVISÃO:
-### - Estrutura Sequencial
-### - Estrutura Condicional
-### - Estrutura de Repetição
-### - Vetores
-### - Matrizes
+## REVISÃO SOBRE ESTRUTURAS BÁSICAS:
+### - Estrutura Sequencial (ES)
+### - Estrutura Condicional (EC)
+### - Estrutura de Repetição (ER)
+### - Vetores (VET)
+### - Matrizes (MAT)
