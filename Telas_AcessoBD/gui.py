@@ -6,7 +6,19 @@ class AplicaçãoLogin:
     def __init__(self, root):
         self.root = root
         self.root.title("Sistema de Acesso")
-        self.root.geometry("350x250")
+
+        # -- CÓDIGO DE CENTRALIZAÇÃO INÍCIO --
+        largura = 350
+        altura = 250
+        largura_tela = self.root.winfo_screenwidth()
+        altura_tela = self.root.winfo_screenheight()
+        pos_x = (largura_tela // 2) - (largura // 2)
+        pos_y = (altura_tela // 2) - (altura // 2)
+        self.root.geometry(f"{largura}x{altura}+{pos_x}+{pos_y}")
+        # -- CÓDIGO DE CENTRALIZAÇÃO FIM --
+        
+        #self.root.geometry("350x250")
+        
         self.root.resizable(False, False)
 
         # Container principal para alternar telas
